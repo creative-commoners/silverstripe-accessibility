@@ -1,7 +1,7 @@
 {
-	"name": "silverstripe/accessibility",
-	"description": "Adds access key support to SilverStripe",
-	"type": "silverstripe-module",
+	"name": "silverstripe/accesskeys",
+	"description": "Adds access key support to Silverstripe CMS pages",
+	"type": "silverstripe-vendormodule",
 	"keywords": ["silverstripe", "accessibility", "access key"],
 	"license": "BSD-3-Clause",
 	"authors": [
@@ -13,5 +13,13 @@
 	"require":
 	{
 		"silverstripe/cms": "^4"
-	}
+    },
+    "autoload": {
+        "psr-4": {
+            "Silverstripe\\AccessKeys\\": "src/"
+        }
+    },
+    "replace": {
+        "silverstripe/accessibility": "self.version"
+    }
 }

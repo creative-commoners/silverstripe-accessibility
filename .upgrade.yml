@@ -1,0 +1,4 @@
+mappings:
+  Accessible: Silverstripe\AccessKeys\AccessKey
+  AccessibilityPage: Silverstripe\AccessKeys\AccessKeysListingPage
+  AccessibilityPage_Controller: PageController

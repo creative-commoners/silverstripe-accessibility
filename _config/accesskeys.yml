@@ -1,0 +1,7 @@
+---
+Name: accesskeys
+After: cms/*
+---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - Silverstripe\AccessKeys\AccessKey

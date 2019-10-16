@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/accessibility",
+	"name": "silverstripe/accesskeys",
 	"description": "Adds access key support to SilverStripe",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "accessibility", "access key"],
@@ -14,5 +14,8 @@
 	{
 		"silverstripe/framework": "~3.1",
 		"silverstripe/cms": "~3.1"
-	}
+	},
+    "replace": {
+        "silverstripe/accessibility": "self.version"
+    }
 }

@@ -1,6 +1,6 @@
 ---
 Name: accesskeys
-After: cms/*
+After:
 ---
 SilverStripe\CMS\Model\SiteTree:
   extensions:

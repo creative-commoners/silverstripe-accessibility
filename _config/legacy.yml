@@ -1,0 +1,7 @@
+---
+Name: accesskeyslegacy
+---
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    Accessible: Silverstripe\AccessKeys\AccessKey
+    AccessibilityPage: Silverstripe\AccessKeys\AccessKeysListingPage

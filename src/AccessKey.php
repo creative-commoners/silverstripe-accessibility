@@ -19,11 +19,11 @@ class AccessKey extends DataExtension
     public function updateSettingsFields(FieldList $fields)
     {
         $description = _t(
-            'Silverstripe\AccessKeys\AccessKey.LABEL',
+            self::class . '.LABEL',
             'Access Keys are optional, but must be a single unique character.'
             . 'Check your current access keys to avoid conflict'
         );
-        $title = _t('Silverstripe\AccessKeys\AccessKey.TITLE', 'Access Key');
+        $title = _t(self::class . '.TITLE', 'Access Key');
 
         $fields->addFieldToTab(
             'Root.Settings',

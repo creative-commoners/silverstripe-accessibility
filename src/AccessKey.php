@@ -10,7 +10,7 @@ use SilverStripe\ORM\DataExtension;
 
 class AccessKey extends DataExtension
 {
-    const DB_FIELD_NAME = 'AccessKey';
+    private const DB_FIELD_NAME = 'AccessKey';
 
     private static $db = [
         self::DB_FIELD_NAME => 'Varchar(1)',
